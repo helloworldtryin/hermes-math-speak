@@ -1,0 +1,6 @@
+name: math-speak
+version: 1.0.0
+description: "Read LaTeX math aloud as words. Provides a math_speak_text agent tool and a mathspeak TTS provider (math-aware Edge synthesis) so $v = c_1 v_1$ is heard as 'v equals c sub 1 v sub 1' instead of 'dollar vee underscore one'."
+author: "helloworldtryin"
+provides_tools:
+  - math_speak_text
